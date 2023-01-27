@@ -1,4 +1,4 @@
-# Reloj de tiempos revertidos versión 0.3.1
+# Reloj de tiempos revertidos 0.3.1
 import time
 
 player1_time = 60  # tiempo inicial en segundos
