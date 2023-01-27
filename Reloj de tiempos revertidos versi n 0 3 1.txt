@@ -1,5 +1,5 @@
 # Reloj de tiempos revertidos 0.3.1
-#Run in https://geekflare.com/es/online-compiler/python
+#Run inhttps://www.programiz.com/python-programming/online-compiler/
 import time
 
 player1_time = 60  # tiempo inicial en segundos
