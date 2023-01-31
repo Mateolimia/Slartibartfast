@@ -1,5 +1,9 @@
-# Reloj de tiempos revertidos 0.3.1
-#Run in https://www.programiz.com/python-programming/online-compiler/
+#Reloj para ajedrez con dados 2x8 de tiempos revertidos
+#Primer modelo del mundo
+#Python
+#Version 3.0
+
+import random
 import time
 
 player1_time = 60  # tiempo inicial en segundos
@@ -8,6 +12,7 @@ player2_time = 60
 while player1_time > 0 and player2_time > 0:
     print("Tiempo de Blancas: ", player1_time)
     print("Tiempo de Negras: ", player2_time)
+    print (random.choice( ['peón', 'caballo', 'alfil', 'dama', 'torre', 'rey']))
     player1_start = time.time()
     input("Blancas, presione intro para acabar su turno")
     player1_end = time.time()
@@ -16,6 +21,7 @@ while player1_time > 0 and player2_time > 0:
 
     print("Tiempo de Blancas: ", player1_time)
     print("Tiempo de Negras: ", player2_time)
+    print(random.choice( ['peón', 'caballo', 'alfil', 'dama', 'torre', 'rey']))
     player2_start = time.time()
     input("Negras, presione intro para terminar terminar su turno")
     player2_end = time.time()
